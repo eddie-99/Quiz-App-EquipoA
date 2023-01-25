@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Quiz-App-EquipoA</string>
+
+    <!--Strings Pantalla de inicio-->
+
+    <string name="txt_TxtQuiz">QuizManiatics</string>
+    <string name="btn_Modalidad">Modalidad</string>
+    <string name="btn_Iniciar">Iniciar</string>
+
 </resources>
