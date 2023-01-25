@@ -58,3 +58,41 @@ public class ConexionSQLite extends SQLiteOpenHelper {
         onCreate(db);
     }
 }
+
+/*
+*
+users:
+user_id (primary key)
+username
+email
+password
+*
+questions:
+question_id (primary key)
+question_text
+correct_answer
+category (foreign key to categories.category_id)
+*
+answers:
+answer_id (primary key)
+question_id (foreign key to questions.question_id)
+answer_text
+*
+categories:
+category_id (primary key)
+category_name
+*
+quiz_history:
+quiz_history_id (primary key)
+user_id (foreign key to users.user_id)
+question_id (foreign key to questions.question_id)
+answer_id (foreign key to answers.answer_id)
+quiz_date
+*
+En este esquema se puede ver que hay varias tablas:
+users: guarda información de los usuarios
+questions: guarda las preguntas del cuestionario
+answers: guarda las posibles respuestas a las preguntas
+categories: guarda las categorías a las que pertenecen las preguntas.
+quiz_history: guarda el historial de preguntas y respuestas de los usuarios.
+* */
