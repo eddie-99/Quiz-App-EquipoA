@@ -12,5 +12,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //Comentario en el main activity.
         //Otro comentario.
+        System.out.println("printf");
     }
 }
