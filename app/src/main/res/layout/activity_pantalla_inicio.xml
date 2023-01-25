@@ -58,6 +58,7 @@
             android:id="@+id/btn_Modalidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Modalidad"
             android:text="@string/btn_Modalidad" />
 
         <Button
