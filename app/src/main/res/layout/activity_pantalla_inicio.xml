@@ -37,11 +37,11 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="0dp"
-            android:layout_height="200sp"
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars" />
+            app:srcCompat="@drawable/quizmaniatics" />
     </LinearLayout>
 
     <LinearLayout
